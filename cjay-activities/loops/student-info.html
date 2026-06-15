@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Information</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/studentstyle.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="page-header">
+      <h3>Student Information System</h3>
+    </header>
+    <div class="controls">
+
+      <div class="search-box">
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Search student name">
+        <button onclick="searchStudent()">Search</button>
+      </div>
+
+      <div class="buttons">
+        <button onclick="filterPresent()">Present</button>
+        <button onclick="filterAbsent()">Absent</button>
+        <button onclick="filterPassed()">Passed</button>
+        <button onclick="filterFailed()">Failed</button>
+      </div>
+
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Sub 1</th>
+            <th>Sub 2</th>
+            <th>Sub 3</th>
+            <th>Average</th>
+            <th>Remarks</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="./js/student.js"></script>
+</body>
+</html>

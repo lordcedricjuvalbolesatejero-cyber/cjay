@@ -1,0 +1,21 @@
+
+body { background-color: #dff5ec; font-family: Arial, sans-serif; }
+.navbar { background-color: #ecfdf5 !important; box-shadow: 0 4px 10px rgba(16,185,129,0.15); }
+.navbar-brand { font-weight: bold; color: #065f46 !important; }
+
+h2 { color: #065f46; }
+.btn-primary, .btn-success, .btn-warning, .btn-danger {
+    border-radius: 8px; font-weight: 600; transition: all 0.3s ease;
+}
+.btn-primary { background: linear-gradient(135deg,#34d399,#10b981); border:none; color:#064e3b; }
+.btn-primary:hover { transform: scale(1.05); box-shadow:0 0 12px rgba(16,185,129,0.3);}
+.btn-success { background: linear-gradient(135deg,#10b981,#34d399); border:none; color:#064e3b;}
+.btn-warning { background: #fbbf24; color:#065f46; }
+.btn-danger { background: #ef4444; color:#fff; }
+
+input.form-control { background: #e6f6ed; border:1.5px solid rgba(16,185,129,0.3); border-radius:8px; color:#065f46; transition:0.3s;}
+input.form-control:focus { background: #d1f5e3; border-color:#10b981; box-shadow:0 0 8px rgba(16,185,129,0.4); outline:none; }
+
+.card { background: #f0fdf9; border-radius:12px; box-shadow:0 4px 10px rgba(16,185,129,0.15); }
+.table th { background-color: #a7f3d0 !important; color:#065f46; }
+.table-hover tbody tr:hover { background-color: #d1f5e3; transition:0.3s;}

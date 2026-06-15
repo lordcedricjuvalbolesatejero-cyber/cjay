@@ -1,0 +1,60 @@
+body {
+    background: #f5efe6; 
+    color: #5c4033;      
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+h2 {
+    color: #7a5c45;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #fffaf5; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+th, td {
+    border: 1px solid #e3d5c3; /* soft nude border */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Header */
+th {
+    background: #d8c3a5; /* nude tan */
+    color: #4b3621;
+    font-weight: bold;
+}
+
+/* Row striping */
+tr:nth-child(even) {
+    background: #f3ebe2;
+}
+
+/* Hover effect */
+tr:hover {
+    background: #e8dccb;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 10px 14px;
+    background: #b08968; /* nude brown */
+    color: #fffaf5;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #a47148;
+}
