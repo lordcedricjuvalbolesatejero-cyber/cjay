@@ -1,0 +1,70 @@
+
+/* Page background */
+body {
+    background-color: #dff5ec;
+    font-family: Arial, sans-serif;
+}
+
+/* Card container */
+.training-card {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: #f0fdf9;
+    border: 1px solid rgba(16,185,129,0.3);
+    box-shadow: 0 4px 15px rgba(16,185,129,0.15);
+}
+
+/* Header */
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#employeeName {
+    color: #065f46;
+    font-weight: bold;
+}
+
+/* Search input */
+.search-wrapper input {
+    background: #e6f6ed;
+    border: 1.5px solid rgba(16,185,129,0.3);
+    border-radius: 8px;
+    color: #065f46;
+    transition: all 0.3s ease;
+}
+.search-wrapper input:focus {
+    background: #d1f5e3;
+    border-color: #10b981;
+    box-shadow: 0 0 8px rgba(16,185,129,0.4);
+    outline: none;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg,#34d399,#10b981);
+    border: none;
+    color: #064e3b;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(16,185,129,0.3);
+}
+.btn-warning {
+    background: linear-gradient(135deg,#fcd34d,#fbbf24);
+    border: none;
+    color: #713f12;
+    border-radius: 6px;
+}
+.btn-danger {
+    background: linear-gradient(135deg,#f87171,#ef4444);
+    border: none;
+    color: #7f1d1d;
+    border-radius: 6px;
+}

@@ -1,0 +1,58 @@
+
+/* BODY */
+body {
+    background-color: #dff5ec;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ecfdf5 !important;
+    box-shadow: 0 4px 10px rgba(16,185,129,0.15);
+}
+.navbar-brand, .nav-link {
+    color: #065f46 !important;
+}
+.navbar .nav-link.active-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #10b981 !important;
+}
+
+/* Page header */
+.page-header {
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+    color: #065f46;
+}
+
+/* Table */
+.table-container {
+    background-color: #f0fdf9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(16,185,129,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.table-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(16,185,129,0.25);
+}
+.table th {
+    background-color: #a7f3d0 !important;
+    color: #065f46;
+}
+
+/* Buttons */
+.btn-primary, .btn-custom {
+    background: linear-gradient(135deg,#34d399,#10b981);
+    border: none;
+    color: #064e3b;
+}
+.btn-primary:hover, .btn-custom:hover {
+    transform: scale(1.05);
+}
+
+/* Status text */
+.text-success { color: #10b981 !important; font-weight: bold; }
+.text-primary { color: #34d399 !important; font-weight: bold; }
+.text-warning { color: #f59e0b !important; font-weight: bold; }
+.text-danger { color: #ef4444 !important; font-weight: bold; }

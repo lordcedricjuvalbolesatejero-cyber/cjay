@@ -1,0 +1,84 @@
+ body {
+      background-color: #dff5ec;
+  }
+
+  /* Navbar */
+  .navbar {
+      background-color: #ecfdf5 !important;
+      box-shadow: 0 4px 10px rgba(16,185,129,0.15);
+  }
+  .navbar .navbar-brand, .navbar .btn {
+      color: #065f46 !important;
+  }
+
+  /* Top links */
+  .bg-light.border-bottom {
+      background-color: #f0fdf9 !important;
+      border-color: rgba(16,185,129,0.2) !important;
+  }
+  .bg-light a {
+      color: #065f46 !important;
+      font-weight: bold;
+  }
+  .bg-light a.active-link {
+      color: #10b981 !important;
+      text-decoration: underline;
+  }
+
+  /* Card boxes */
+  .card-box {
+      background: #f0fdf9;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(18, 70, 52, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(14, 31, 25, 0.25);
+  }
+  .card-box i { font-size: 2rem; color: #10b981; }
+  .card-box h2 { color: #065f46; }
+
+  /* Section title */
+  .section-title {
+      font-weight: bold;
+      color: #065f46;
+      margin-top: 2rem;
+  }
+
+  /* Table container */
+  .table-container {
+      background: #f0fdf9;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(16,185,129,0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .table-container:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(16,185,129,0.25);
+  }
+
+  /* Table header */
+  table thead {
+      background-color: #a7f3d0 !important;
+      color: #065f46 !important;
+  }
+
+  /* Buttons */
+  .btn-custom, .btn {
+      background: linear-gradient(135deg,#34d399,#10b981);
+      border: none;
+      color: #064e3b !important;
+  }
+  .btn:hover, .btn-custom:hover {
+      transform: scale(1.05);
+  }
+
+  /* Active link for navbar */
+  .active-link {
+      font-weight: bold;
+      text-decoration: underline;
+      color: #10b981 !important;
+  }

@@ -1,0 +1,63 @@
+
+/* Body background */
+body {
+    background-color: #dff5ec;
+}
+
+/* Status colors */
+.text-success { color: #10b981; }
+.text-primary { color: #065f46; }
+.text-warning { color: #facc15; }
+.text-danger { color: #dc2626; }
+
+/* Employee box */
+.employee-box {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    background: #f0fdf9;
+    border: 1px solid rgba(16,185,129,0.3);
+    box-shadow: 0 4px 15px rgba(16,185,129,0.15);
+}
+
+/* Title */
+.system-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #065f46;
+    font-weight: bold;
+}
+
+/* Form controls */
+.form-control, .form-select {
+    background: #e6f6ed;
+    border: 1.5px solid rgba(16,185,129,0.3);
+    border-radius: 8px;
+    color: #065f46;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    background: #d1f5e3;
+    border-color: #10b981;
+    box-shadow: 0 0 8px rgba(16,185,129,0.4);
+    outline: none;
+}
+
+/* Buttons */
+.side-buttons button {
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #064e3b;
+    background: linear-gradient(135deg,#34d399,#10b981);
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.side-buttons button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(16,185,129,0.3);
+}
